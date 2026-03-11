@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+.no-text-select,
+.no-text-select * {
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
