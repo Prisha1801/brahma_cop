@@ -78,8 +78,6 @@ const SectionHeading = ({ title }) => (
 const Faculties = () => {
     return (
         <div className="bg-gray-100 min-h-screen">
-            <HeroSection {...facultiesHero} />
-
             <div className="max-w-4xl mx-auto px-6 py-14">
 
                 {/* Teaching Faculty */}

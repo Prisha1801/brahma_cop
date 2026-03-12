@@ -46,6 +46,7 @@ import ObjectiveFunction from "./components/IQAC/ObjectiveFunction";
 import Contact from "./pages/Contact";
 import Faculty from "./pages/Faculty";
 import Alumni from "./pages/Alumni";
+import LMC from "./components/COP/LMC";
 
 function App() {
   return (
@@ -58,6 +59,7 @@ function App() {
           <Route path="/chairman-desk" element={<ChairmanDesk />} />
           <Route path="/principal-desk" element={<PrincipalDesk />} />
           <Route path="/vision-mission" element={<MissionVision />} />
+          <Route path="/lmc" element={<LMC />} />
           <Route path="/committee" element={<Committee />} />
           <Route path="/admission/programme-details" element={<ProgrammeDetails />} />
           <Route path="/admission/eligibility" element={<Eligibility />} />

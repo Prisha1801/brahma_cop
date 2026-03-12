@@ -266,6 +266,7 @@ const Navbar = () => {
         { label: "IIQA", link: "/iiqa" },
         { label: "NAAC Documents", link: "/naac-document" },
         { label: "DVV Clarification", link: "/dvv-clarification" },
+        { label: "SSR Documents", link: "/pdf/ssr.pdf", external: true }
       ],
     },
     {

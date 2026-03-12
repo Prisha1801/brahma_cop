@@ -7,43 +7,49 @@ export const heroData = {
     overlay: true,
 };
 
+import boardMemberImage from "/posters/board-member.png";
 export const boardMembersHero = {
-    backgroundImage: heroImage,
+    backgroundImage: boardMemberImage,
     title: "Board Members",
     subtitle: "Discover excellence in education and innovation.",
     overlay: true,
 };
 
+import chairmanHeroImage from "/posters/chairmanHero.png";
 export const chairmanDeskHero = {
-    backgroundImage: heroImage,
+    backgroundImage: chairmanHeroImage,
     title: "Chairman Desk",
     subtitle: "Discover excellence in education and innovation.",
     overlay: true,
 };
 
+import principalHeroImage from "/posters/presidentHero.png";
 export const principalDeskHero = {
-    backgroundImage: heroImage,
+    backgroundImage: principalHeroImage,
     title: "Principal Desk",
     subtitle: "Discover excellence in education and innovation.",
     overlay: true,
 };
 
+import secretaryHeroImage from "/posters/secretary.png";
 export const lmcHero = {
-    backgroundImage: heroImage,
+    backgroundImage: secretaryHeroImage,
     title: "LMC",
     subtitle: "Discover excellence in education and innovation.",
     overlay: true,
 };
 
+import missionHeroImage from "/posters/missionHero.png";
 export const missionHero = {
-    backgroundImage: heroImage,
+    backgroundImage: missionHeroImage,
     title: "Mission Vision",
     subtitle: "",
     overlay: true,
 };
 
+import iqacHeroImage from "/posters/iqacHero.png";
 export const committeeHero = {
-    backgroundImage: heroImage,
+    backgroundImage: iqacHeroImage,
     title: "Committee",
     subtitle: "Discover excellence in education and innovation.",
     overlay: true,
@@ -56,71 +62,77 @@ export const facultiesHero = {
     overlay: true,
 };
 
+import admissionHero from "/posters/courseHero.png";
 export const programmeDetailsHero = {
-    backgroundImage: heroImage,
+    backgroundImage: admissionHero,
     title: "Programme Details",
     subtitle: "Discover excellence in education and innovation.",
     overlay: true,
 };
 
+const eligibilityHeroImage = "/posters/eligibilityHero.png";
 export const eligibilityHero = {
-    backgroundImage: heroImage,
+    backgroundImage: eligibilityHeroImage,
     title: "Eligibility",
     subtitle: "Discover excellence in education and innovation.",
     overlay: true,
 };
 
+
 export const academicOverviewHero = {
-    backgroundImage: heroImage,
+    backgroundImage: admissionHero,
     title: "Academic Overview",
     subtitle: "Discover excellence in education and innovation.",
     overlay: true,
 };
 
 export const admissionDetailsHero = {
-    backgroundImage: heroImage,
+    backgroundImage: admissionHero,
     title: "Admission Details",
     subtitle: "Discover excellence in education and innovation.",
     overlay: true,
 };
 
 export const feesStructureHero = {
-    backgroundImage: heroImage,
+    backgroundImage: admissionHero,
     title: "Fee Structure",
     subtitle: "Discover excellence in education and innovation.",
     overlay: true,
 };
 
 export const rulesRegulationsHero = {
-    backgroundImage: heroImage,
+    backgroundImage: admissionHero,
     title: "Rules & Regulations",
     subtitle: "Discover excellence in education and innovation.",
     overlay: true,
 };
 
 export const requiredDocumentsHero = {
-    backgroundImage: heroImage,
+    backgroundImage: admissionHero,
     title: "Required Documents",
     subtitle: "Discover excellence in education and innovation.",
     overlay: true,
 };
 
+import libraryHeroImage from "/posters/libraryHero.png";
 export const libraryHero = {
-    backgroundImage: heroImage,
+    backgroundImage: libraryHeroImage,
     title: "Library",
     subtitle: "Discover excellence in education and innovation.",
     overlay: true,
 };
 
+import hosteHeroImage from "/posters/hosteHero.webp"
 export const hostelHero = {
-    backgroundImage: heroImage,
+    backgroundImage: hosteHeroImage,
     title: "Hostel",
     subtitle: "Discover excellence in education and innovation.",
     overlay: true,
 };
 
+import cafeteriaHeroImage from "/posters/cafeteriaHero.jpeg"
 export const cafeteriaHero = {
-    backgroundImage: heroImage,
+    backgroundImage: cafeteriaHeroImage,
     title: "Cafeteria",
     subtitle: "Discover excellence in education and innovation.",
     overlay: true,
@@ -183,8 +195,9 @@ export const examinationHero = {
     overlay: true,
 };
 
+import courseHero from "/posters/courseHero.png";
 export const courseStructureHero = {
-    backgroundImage: heroImage,
+    backgroundImage: courseHero,
     title: "Course Structure",
     subtitle: "Detailed curriculum structure for B.Pharmacy program",
     overlay: true,
@@ -204,8 +217,9 @@ export const hostelDocumentationHero = {
     overlay: true,
 };
 
+import importantContactsHeroImage from "/posters/contactus.png";
 export const importantContactsHero = {
-    backgroundImage: heroImage,
+    backgroundImage: importantContactsHeroImage,
     title: "Important Contacts",
     subtitle: "Key contact information for various departments and services",
     overlay: true,
@@ -218,15 +232,17 @@ export const placementStudentHero = {
     overlay: true,
 };
 
+import rulesRegulationStudentHeroImage from "/posters/common2Hero.jpg";
 export const rulesRegulationStudentHero = {
-    backgroundImage: heroImage,
+    backgroundImage: rulesRegulationStudentHeroImage,
     title: "Rules & Regulation",
     subtitle: "College rules, regulations, and code of conduct",
     overlay: true,
 };
 
+import scholarshipSectionHeroImage from "/posters/common2Hero.jpg";
 export const scholarshipSectionHero = {
-    backgroundImage: heroImage,
+    backgroundImage: scholarshipSectionHeroImage,
     title: "Scholarship Section",
     subtitle: "Scholarship opportunities and financial aid information",
     overlay: true,
@@ -253,8 +269,9 @@ export const codeOfConductHero = {
     overlay: true,
 };
 
+import commonImage from "/posters/common.png";
 export const curricularHero = {
-    backgroundImage: heroImage,
+    backgroundImage: commonImage,
     title: "Curricular",
     subtitle: "Academic curriculum and educational activities",
     overlay: true,
@@ -267,43 +284,49 @@ export const bvClubHero = {
     overlay: true,
 };
 
+import cycleHeroImage from "/posters/cycleHero.jpg";
 export const naacDocumentHero = {
-    backgroundImage: heroImage,
+    backgroundImage: cycleHeroImage,
     title: "NAAC Document",
     subtitle: "NAAC document and accreditation information",
     overlay: true,
 };
 
+import iiqaHeroImage from "/posters/iiqcHero.jpg";
 export const iiqaHero = {
-    backgroundImage: heroImage,
+    backgroundImage: iiqaHeroImage,
     title: "IIQA",
     subtitle: "IIQA information and details",
     overlay: true,
 };
 
+import dvvHeroImage from "/posters/cycleHero.jpg";
 export const dvvClarificationHero = {
-    backgroundImage: heroImage,
+    backgroundImage: dvvHeroImage,
     title: "D.V.V. Clarification",
     subtitle: "D.V.V. Clarification and information",
     overlay: true,
 };
 
+import iiqcHeroImage from "/posters/iiqcHero.jpg";
 export const iqacCommitteeHero = {
-    backgroundImage: heroImage,
+    backgroundImage: iiqcHeroImage,
     title: "IQAC Committee",
     subtitle: "Internal Quality Assurance Cell Committee information",
     overlay: true,
 };
 
+import objectiveFunctionHeroImage from "/posters/nirfHero.jpg";
 export const objectiveFunctionHero = {
-    backgroundImage: heroImage,
+    backgroundImage: objectiveFunctionHeroImage,
     title: "Objective & Function",
     subtitle: "IQAC objectives and functions documentation",
     overlay: true,
 };
 
+import contactHeroImage from "/posters/contactHero.png";
 export const contactHero = {
-    backgroundImage: heroImage,
+    backgroundImage: contactHeroImage,
     title: "Contact",
     subtitle: "Contact information and details",
     overlay: true,
