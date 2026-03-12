@@ -14,3 +14,17 @@ button {
   -ms-user-select: none;
   user-select: none;
 }
+
+html,
+body,
+* {
+  -webkit-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+}
+.no-text-select,
+.no-text-select * {
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

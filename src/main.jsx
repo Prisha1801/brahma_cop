@@ -10,7 +10,10 @@ if (disableDevtools && typeof document !== 'undefined') {
   document.addEventListener('contextmenu', (event) => event.preventDefault())
   document.addEventListener('selectstart', (event) => event.preventDefault())
   document.addEventListener('copy', (event) => event.preventDefault())
+  document.addEventListener('dragstart', (event) => event.preventDefault())
   document.documentElement.classList.add('no-text-select')
+  document.documentElement.style.userSelect = 'none'
+  document.body?.style && (document.body.style.userSelect = 'none')
 }
 
 createRoot(document.getElementById('root')).render(
