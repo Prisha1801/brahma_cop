@@ -35,19 +35,19 @@ const PrincipalDesk = () => {
                                 className="flex flex-col items-center text-center"
                             >
                                 <img
-                                    src="/faculties/Dr. Vijay D. Wagh.jpeg"
-                                    alt="Dr. Vijay D. Wagh"
+                                    src="/faculties/Gokul S. Talele.jpg"
+                                    alt="Dr. Gokul S. Talele"
                                     className="w-52 object-cover object-top rounded-lg shadow-md mb-5"
                                 />
                                 <h4 className="text-lg font-semibold text-gray-900">
-                                    Dr. Vijay D. Wagh
+                                    Dr. Gokul S. Talele
                                 </h4>
                                 <p className="text-gray-500 text-sm mt-1">Principal</p>
                                 <p className="text-gray-500 text-sm mt-0.5">
                                     Brahma Valley College of Pharmacy
                                 </p>
                                 <p className="text-gray-500 text-sm mt-0.5">
-                                    Mob. No. - 9923072990
+                                    Mob. No. - 9822779611
                                 </p>
                             </motion.div>
 

@@ -4,7 +4,7 @@ import HeroSection from '/src/components/common/components/HeroSection';
 import { facultiesHero } from '/src/components/common/data/heroData';
 
 const teachingFaculty = [
-    { name: "Dr. Vijay D. Wagh", designation: "Principal", qualification: "M. Pharm. PhD", image: "/faculties/Dr. Vijay D. Wagh.jpeg" },
+    { name: "Gokul S. Talele", designation: "Principal", qualification: "M. Pharm. PhD", image: "/faculties/Gokul S. Talele.jpg" },
     { name: "Prof. Ishi Harshada Shamrao", designation: "Assistant Professor", qualification: "M.PHARM", image: "/faculties/Prof. Ishi Harshada Shamrao.jpg" },
     { name: "Prof. Bhandare Saurbh Dilip", designation: "Assistant Professor", qualification: "M.PHARM", image: "/faculties/Prof. Bhandare Saurbh Dilip.jpg" },
     { name: "Prof. Kute Vijaya Arjun", designation: "Assistant Professor", qualification: "M.PHARM", image: "/faculties/Prof. Kute Vijaya Arjun.jpg" },

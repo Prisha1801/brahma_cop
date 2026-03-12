@@ -4,7 +4,7 @@ import HeroSection from '../common/components/HeroSection';
 import { facultiesHero } from '../common/data/heroData';
 
 const teachingFaculty = [
-    { name: "Dr. Vijay D. Wagh", designation: "Principal", image: "/faculties/Dr. Vijay D. Wagh.jpeg" },
+    { name: "Gokul S. Talele", designation: "Principal", image: "/faculties/Gokul S. Talele.jpg" },
     { name: "Prof. Ishi Harshada Shamrao", designation: "Assistant Professor", image: "/faculties/Prof. Ishi Harshada Shamrao.jpg" },
     { name: "Prof. Bhandare Saurbh Dilip", designation: "Assistant Professor", image: "/faculties/Prof. Bhandare Saurbh Dilip.jpg" },
     { name: "Prof. Kute Vijaya Arjun", designation: "Assistant Professor", image: "/faculties/Prof. Kute Vijaya Arjun.jpg" },

@@ -36,7 +36,7 @@ const AdmissionDetails = () => {
                         </div>
 
                         <div className="text-gray-800 font-medium text-lg">
-                            Contact To : Dr. Vijay D Wagh (9923072990 / 7972999409)
+                            Contact To : Gokul S. Talele (9822779611)
                         </div>
                     </div>
 
