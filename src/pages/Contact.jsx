@@ -75,7 +75,7 @@ const Contact = () => {
                                 </svg>
                             </div>
                             <div>
-                                <p className="font-extrabold text-gray-900 text-sm">+91919923072990</p>
+                                <p className="font-extrabold text-gray-900 text-sm">+91 9923072990</p>
                                 <p className="text-gray-500 text-sm mt-0.5">Mon to Fri 9am to 6 pm</p>
                             </div>
                         </div>
