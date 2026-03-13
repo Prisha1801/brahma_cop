@@ -5,7 +5,7 @@ const AdmissionSidebar = () => {
     const location = useLocation();
 
     const menuItems = [
-        { label: "Admission", path: "/admission" },
+        { label: "Admission", link: "https://ph2025.mahacet.org/StaticPages/HomePage", external: true },
         { label: "Programme Details", path: "/admission/programme-details" },
         { label: "Eligibility", path: "/admission/eligibility" },
         { label: "Academics Overview", path: "/admission/academics-overview" },
@@ -29,17 +29,32 @@ const AdmissionSidebar = () => {
                     
                     return (
                         <li key={index}>
-                            <Link
-                                to={item.path}
-                                className={`flex items-center gap-2 px-4 py-2.5 rounded-md text-sm font-medium transition-colors ${
-                                    isActive
-                                        ? "bg-[#0d6efd] text-white"
-                                        : "text-gray-700 hover:bg-gray-50 hover:text-[#0d6efd]"
-                                }`}
-                            >
-                                <FaChevronRight className={`text-[10px] ${isActive ? "text-white" : "text-gray-400"}`} />
-                                {item.label}
-                            </Link>
+                            {item.external ? (
+                                <button
+                                    type="button"
+                                    onClick={() => window.open(item.link, "_blank", "noopener")}
+                                    className={`flex items-center gap-2 px-4 py-2.5 rounded-md text-sm font-medium transition-colors ${
+                                        isActive
+                                            ? "bg-[#0d6efd] text-white"
+                                            : "text-gray-700 hover:bg-gray-50 hover:text-[#0d6efd]"
+                                    }`}
+                                >
+                                    <FaChevronRight className={`text-[10px] ${isActive ? "text-white" : "text-gray-400"}`} />
+                                    {item.label}
+                                </button>
+                            ) : (
+                                <Link
+                                    to={item.path}
+                                    className={`flex items-center gap-2 px-4 py-2.5 rounded-md text-sm font-medium transition-colors ${
+                                        isActive
+                                            ? "bg-[#0d6efd] text-white"
+                                            : "text-gray-700 hover:bg-gray-50 hover:text-[#0d6efd]"
+                                    }`}
+                                >
+                                    <FaChevronRight className={`text-[10px] ${isActive ? "text-white" : "text-gray-400"}`} />
+                                    {item.label}
+                                </Link>
+                            )}
                         </li>
                     );
                 })}
