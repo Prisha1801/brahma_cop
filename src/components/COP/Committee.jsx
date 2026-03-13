@@ -5,13 +5,13 @@ import HeroSection from "../common/components/HeroSection";
 import { committeeHero } from "../common/data/heroData";
 
 const pdfs = [
-  { title: "Anti-Ragging Committee",                  file: "Anti-Ragging Committee.pdf" },
+  { title: "Governing Body 2025-2026",                file: "Governing Body 2025-2026.pdf" },
+  { title: "IQAC Committee 2025-26",                  file: "IQAC Committee 2025-26.pdf" },
   { title: "College Development Committee 2025-26",   file: "College Development Committee 2025-26.pdf" },
+  { title: "Anti-Ragging Committee",                  file: "Anti-Ragging Committee.pdf" },
+  { title: "Internal Complaints Committee",           file: "Internal Complaints Committee.pdf" },
   { title: "Divyang Cell 2025-26",                    file: "DIVYANG CELL 2025-26.pdf" },
   { title: "Equal Opportunities Cell Committee",      file: "Equal Opportunities Cell Committee.pdf" },
-  { title: "Governing Body 2025-2026",                file: "Governing Body 2025-2026.pdf" },
-  { title: "Internal Complaints Committee",           file: "Internal Complaints Committee.pdf" },
-  { title: "IQAC Committee 2025-26",                  file: "IQAC Committee 2025-26.pdf" },
   { title: "OBC Cell 2025-26",                        file: "OBC CELL 2025-26.pdf" },
   { title: "Placement Cell 2025-26",                  file: "Placement Cell 2025-26.pdf" },
   { title: "SC ST Cell 2025-26",                      file: "SC ST CELL 2025-26.pdf" },
